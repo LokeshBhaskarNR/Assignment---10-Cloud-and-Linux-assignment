@@ -1,0 +1,28 @@
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo groupadd devops_group
+[sudo] password for lokesh:
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo useradd -m -g devops_group devops_user
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo passwd devops_user
+New password:
+Retype new password:
+passwd: password updated successfully
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo mkdir /shared_folder
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo chown :devops_group /shared_folder
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ sudo chmod 770 /shared_folder
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$
+lokesh@hp:/mnt/c/WINDOWS/system32$ ls -ld /shared_folder
+drwxrwx--- 2 root devops_group 4096 Sep  9 17:52 /shared_folder
+lokesh@hp:/mnt/c/WINDOWS/system32$

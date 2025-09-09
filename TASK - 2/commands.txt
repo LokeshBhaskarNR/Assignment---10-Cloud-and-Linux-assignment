@@ -1,0 +1,5 @@
+nano system_report.sh
+chmod +x system_report.sh
+nohup ./system_report.sh > mylogs.out 2>&1 &
+ps -ef | grep system_report.sh
+kill <PID>

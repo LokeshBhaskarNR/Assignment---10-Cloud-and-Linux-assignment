@@ -1,0 +1,17 @@
+========== System Report ==========
+Date: Tue Sep  9 16:21:16 IST 2025
+Uptime: up 44 minutes
+CPU Info:
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Model name:                           Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+NUMA node0 CPU(s):                    0-7
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       463Mi       7.2Gi       3.4Mi       134Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  2.2G  954G   1% /
+===================================
+
