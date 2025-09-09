@@ -1,7 +1,5 @@
 # Assignment---10-Cloud-and-Linux-assignment
 
-# Linux & Cloud Assignment
-
 ## 1. Common Cloud Services
 Some common services available in the cloud are:
 
@@ -46,7 +44,7 @@ do
         echo ""
     } > "$LOG_FILE"
 
-    echo "✅ Saved log: $LOG_FILE"
+    echo "Saved log: $LOG_FILE"
     sleep 120
 done
 ````
